@@ -1,0 +1,30 @@
+backend/src/main/resources/application.properties
+
+# Backend secrets and configuration
+backend/.env
+backend/.env.*
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Next.js and build outputs
+.next/
+**/.next/
+out/
+build/
+dist/
+
+# Python environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# OS and logs
+.DS_Store
+*.log
